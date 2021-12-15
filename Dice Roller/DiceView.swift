@@ -13,22 +13,35 @@ struct DiceView: View {
     let diceSides: [Int] = [4, 6, 8, 10, 12, 20, 100]
     
     @State private var currentSelection = 1
+    @State private var numberOfTimes = 1
     
     var body: some View {
         NavigationView {
             List {
-                Section {
+                Section(header: Text("Number of sides").font(.headline)) {
                     Picker("Pick a dice", selection: $currentSelection) {
                         ForEach(0..<diceSides.count) { index in
-                            Text("\(diceSides[index]) sides")
+                            Text("\(diceSides[index])")
                         }
                     }
-                    .pickerStyle(.automatic)
+            
+                    .pickerStyle(.segmented)
                 }
                 
+                Section(header: Text("Number of dice").font(.headline)) {
+                    
+                    Picker("Number of times", selection: $numberOfTimes) {
+                        ForEach(1..<4) {
+                            Text("\($0)")
+                        }
+                        
+                    }
+                    .pickerStyle(.segmented)
+                }
+
                 
                 Section {
-                    Text("Result: \(result(for: currentSelection))")
+                    Text("Result: \(result(in: currentSelection, for:numberOfTimes))")
                         .font(.largeTitle)
                 }
             }
@@ -36,22 +49,45 @@ struct DiceView: View {
         }
     }
     
-    func result(for selection: Int) -> Int {
+    
+    func result(in selection: Int, for numberOftimes: Int) -> Int {
         
         let numberOfSides = diceSides[selection]
         
         var possibleOutcomes = [Int]()
         
-        for numberOfSide in 0..<numberOfSides + 1 {
-            possibleOutcomes.append(numberOfSide)
+        var finalArray = [Int]()
+        
+        for _  in 0..<numberOftimes + 1 {
+            
+            for numberOfSide in 0..<numberOfSides + 1 {
+                possibleOutcomes.append(numberOfSide)
+            }
+            
+            possibleOutcomes.removeAll(where: {
+                $0 == 0
+            })
+            
+            
+            
+            let results = possibleOutcomes.randomElement()!
+            
+            finalArray.append(results)
+            
+            
+            
+            
         }
         
-        possibleOutcomes.remove(at: 0)
-        print(possibleOutcomes)
+        print(finalArray)
         
-        return possibleOutcomes.randomElement()!
+        return finalArray.reduce(0, +)
+        
         
     }
+    
+    
+    
 }
 
 struct DiceView_Previews: PreviewProvider {
