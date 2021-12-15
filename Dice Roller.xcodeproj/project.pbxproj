@@ -14,6 +14,10 @@
 		B62BA8202769D9D30040E268 /* Dice_RollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BA81F2769D9D30040E268 /* Dice_RollerTests.swift */; };
 		B62BA82A2769D9D30040E268 /* Dice_RollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BA8292769D9D30040E268 /* Dice_RollerUITests.swift */; };
 		B62BA82C2769D9D30040E268 /* Dice_RollerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BA82B2769D9D30040E268 /* Dice_RollerUITestsLaunchTests.swift */; };
+		B62BA83A2769DA6C0040E268 /* Dice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B62BA8382769DA6C0040E268 /* Dice.xcdatamodeld */; };
+		B62BA83C2769DAB80040E268 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BA83B2769DAB80040E268 /* DataController.swift */; };
+		B62BA8402769DF910040E268 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BA83F2769DF910040E268 /* ResultsView.swift */; };
+		B62BA8422769DFA60040E268 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BA8412769DFA60040E268 /* DiceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		B62BA8252769D9D30040E268 /* Dice RollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dice RollerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62BA8292769D9D30040E268 /* Dice_RollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_RollerUITests.swift; sourceTree = "<group>"; };
 		B62BA82B2769D9D30040E268 /* Dice_RollerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_RollerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B62BA8392769DA6C0040E268 /* Dice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dice.xcdatamodel; sourceTree = "<group>"; };
+		B62BA83B2769DAB80040E268 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		B62BA83F2769DF910040E268 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		B62BA8412769DFA60040E268 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				B62BA80E2769D9D00040E268 /* Dice_RollerApp.swift */,
 				B62BA8102769D9D00040E268 /* ContentView.swift */,
+				B62BA83F2769DF910040E268 /* ResultsView.swift */,
+				B62BA8412769DFA60040E268 /* DiceView.swift */,
+				B62BA8382769DA6C0040E268 /* Dice.xcdatamodeld */,
+				B62BA83B2769DAB80040E268 /* DataController.swift */,
 				B62BA8122769D9D30040E268 /* Assets.xcassets */,
 				B62BA8142769D9D30040E268 /* Preview Content */,
 			);
@@ -258,7 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B62BA8112769D9D00040E268 /* ContentView.swift in Sources */,
+				B62BA8422769DFA60040E268 /* DiceView.swift in Sources */,
+				B62BA8402769DF910040E268 /* ResultsView.swift in Sources */,
+				B62BA83C2769DAB80040E268 /* DataController.swift in Sources */,
 				B62BA80F2769D9D00040E268 /* Dice_RollerApp.swift in Sources */,
+				B62BA83A2769DA6C0040E268 /* Dice.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +621,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B62BA8382769DA6C0040E268 /* Dice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B62BA8392769DA6C0040E268 /* Dice.xcdatamodel */,
+			);
+			currentVersion = B62BA8392769DA6C0040E268 /* Dice.xcdatamodel */;
+			path = Dice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B62BA8032769D9D00040E268 /* Project object */;
 }
