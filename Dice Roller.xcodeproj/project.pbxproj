@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B62BA80F2769D9D00040E268 /* Dice_RollerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BA80E2769D9D00040E268 /* Dice_RollerApp.swift */; };
+		B62BA8112769D9D00040E268 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BA8102769D9D00040E268 /* ContentView.swift */; };
+		B62BA8132769D9D30040E268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62BA8122769D9D30040E268 /* Assets.xcassets */; };
+		B62BA8162769D9D30040E268 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62BA8152769D9D30040E268 /* Preview Assets.xcassets */; };
+		B62BA8202769D9D30040E268 /* Dice_RollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BA81F2769D9D30040E268 /* Dice_RollerTests.swift */; };
+		B62BA82A2769D9D30040E268 /* Dice_RollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BA8292769D9D30040E268 /* Dice_RollerUITests.swift */; };
+		B62BA82C2769D9D30040E268 /* Dice_RollerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62BA82B2769D9D30040E268 /* Dice_RollerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B62BA81C2769D9D30040E268 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B62BA8032769D9D00040E268 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B62BA80A2769D9D00040E268;
+			remoteInfo = "Dice Roller";
+		};
+		B62BA8262769D9D30040E268 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B62BA8032769D9D00040E268 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B62BA80A2769D9D00040E268;
+			remoteInfo = "Dice Roller";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B62BA80B2769D9D00040E268 /* Dice Roller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice Roller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62BA80E2769D9D00040E268 /* Dice_RollerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_RollerApp.swift; sourceTree = "<group>"; };
+		B62BA8102769D9D00040E268 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B62BA8122769D9D30040E268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B62BA8152769D9D30040E268 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B62BA81B2769D9D30040E268 /* Dice RollerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dice RollerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62BA81F2769D9D30040E268 /* Dice_RollerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_RollerTests.swift; sourceTree = "<group>"; };
+		B62BA8252769D9D30040E268 /* Dice RollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dice RollerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62BA8292769D9D30040E268 /* Dice_RollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_RollerUITests.swift; sourceTree = "<group>"; };
+		B62BA82B2769D9D30040E268 /* Dice_RollerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_RollerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B62BA8082769D9D00040E268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62BA8182769D9D30040E268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62BA8222769D9D30040E268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B62BA8022769D9D00040E268 = {
+			isa = PBXGroup;
+			children = (
+				B62BA80D2769D9D00040E268 /* Dice Roller */,
+				B62BA81E2769D9D30040E268 /* Dice RollerTests */,
+				B62BA8282769D9D30040E268 /* Dice RollerUITests */,
+				B62BA80C2769D9D00040E268 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B62BA80C2769D9D00040E268 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B62BA80B2769D9D00040E268 /* Dice Roller.app */,
+				B62BA81B2769D9D30040E268 /* Dice RollerTests.xctest */,
+				B62BA8252769D9D30040E268 /* Dice RollerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B62BA80D2769D9D00040E268 /* Dice Roller */ = {
+			isa = PBXGroup;
+			children = (
+				B62BA80E2769D9D00040E268 /* Dice_RollerApp.swift */,
+				B62BA8102769D9D00040E268 /* ContentView.swift */,
+				B62BA8122769D9D30040E268 /* Assets.xcassets */,
+				B62BA8142769D9D30040E268 /* Preview Content */,
+			);
+			path = "Dice Roller";
+			sourceTree = "<group>";
+		};
+		B62BA8142769D9D30040E268 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B62BA8152769D9D30040E268 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B62BA81E2769D9D30040E268 /* Dice RollerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B62BA81F2769D9D30040E268 /* Dice_RollerTests.swift */,
+			);
+			path = "Dice RollerTests";
+			sourceTree = "<group>";
+		};
+		B62BA8282769D9D30040E268 /* Dice RollerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B62BA8292769D9D30040E268 /* Dice_RollerUITests.swift */,
+				B62BA82B2769D9D30040E268 /* Dice_RollerUITestsLaunchTests.swift */,
+			);
+			path = "Dice RollerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B62BA80A2769D9D00040E268 /* Dice Roller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62BA82F2769D9D40040E268 /* Build configuration list for PBXNativeTarget "Dice Roller" */;
+			buildPhases = (
+				B62BA8072769D9D00040E268 /* Sources */,
+				B62BA8082769D9D00040E268 /* Frameworks */,
+				B62BA8092769D9D00040E268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dice Roller";
+			productName = "Dice Roller";
+			productReference = B62BA80B2769D9D00040E268 /* Dice Roller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B62BA81A2769D9D30040E268 /* Dice RollerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62BA8322769D9D40040E268 /* Build configuration list for PBXNativeTarget "Dice RollerTests" */;
+			buildPhases = (
+				B62BA8172769D9D30040E268 /* Sources */,
+				B62BA8182769D9D30040E268 /* Frameworks */,
+				B62BA8192769D9D30040E268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B62BA81D2769D9D30040E268 /* PBXTargetDependency */,
+			);
+			name = "Dice RollerTests";
+			productName = "Dice RollerTests";
+			productReference = B62BA81B2769D9D30040E268 /* Dice RollerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B62BA8242769D9D30040E268 /* Dice RollerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62BA8352769D9D40040E268 /* Build configuration list for PBXNativeTarget "Dice RollerUITests" */;
+			buildPhases = (
+				B62BA8212769D9D30040E268 /* Sources */,
+				B62BA8222769D9D30040E268 /* Frameworks */,
+				B62BA8232769D9D30040E268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B62BA8272769D9D30040E268 /* PBXTargetDependency */,
+			);
+			name = "Dice RollerUITests";
+			productName = "Dice RollerUITests";
+			productReference = B62BA8252769D9D30040E268 /* Dice RollerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B62BA8032769D9D00040E268 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B62BA80A2769D9D00040E268 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B62BA81A2769D9D30040E268 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B62BA80A2769D9D00040E268;
+					};
+					B62BA8242769D9D30040E268 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B62BA80A2769D9D00040E268;
+					};
+				};
+			};
+			buildConfigurationList = B62BA8062769D9D00040E268 /* Build configuration list for PBXProject "Dice Roller" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B62BA8022769D9D00040E268;
+			productRefGroup = B62BA80C2769D9D00040E268 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B62BA80A2769D9D00040E268 /* Dice Roller */,
+				B62BA81A2769D9D30040E268 /* Dice RollerTests */,
+				B62BA8242769D9D30040E268 /* Dice RollerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B62BA8092769D9D00040E268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62BA8162769D9D30040E268 /* Preview Assets.xcassets in Resources */,
+				B62BA8132769D9D30040E268 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62BA8192769D9D30040E268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62BA8232769D9D30040E268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B62BA8072769D9D00040E268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62BA8112769D9D00040E268 /* ContentView.swift in Sources */,
+				B62BA80F2769D9D00040E268 /* Dice_RollerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62BA8172769D9D30040E268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62BA8202769D9D30040E268 /* Dice_RollerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62BA8212769D9D30040E268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62BA82A2769D9D30040E268 /* Dice_RollerUITests.swift in Sources */,
+				B62BA82C2769D9D30040E268 /* Dice_RollerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B62BA81D2769D9D30040E268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B62BA80A2769D9D00040E268 /* Dice Roller */;
+			targetProxy = B62BA81C2769D9D30040E268 /* PBXContainerItemProxy */;
+		};
+		B62BA8272769D9D30040E268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B62BA80A2769D9D00040E268 /* Dice Roller */;
+			targetProxy = B62BA8262769D9D30040E268 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B62BA82D2769D9D30040E268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B62BA82E2769D9D30040E268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B62BA8302769D9D40040E268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dice Roller/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FRR58PFB2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yashpoojary.Dice-Roller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B62BA8312769D9D40040E268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dice Roller/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FRR58PFB2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yashpoojary.Dice-Roller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B62BA8332769D9D40040E268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FRR58PFB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yashpoojary.Dice-RollerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dice Roller.app/Dice Roller";
+			};
+			name = Debug;
+		};
+		B62BA8342769D9D40040E268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FRR58PFB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yashpoojary.Dice-RollerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dice Roller.app/Dice Roller";
+			};
+			name = Release;
+		};
+		B62BA8362769D9D40040E268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FRR58PFB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yashpoojary.Dice-RollerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dice Roller";
+			};
+			name = Debug;
+		};
+		B62BA8372769D9D40040E268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FRR58PFB2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yashpoojary.Dice-RollerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dice Roller";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B62BA8062769D9D00040E268 /* Build configuration list for PBXProject "Dice Roller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62BA82D2769D9D30040E268 /* Debug */,
+				B62BA82E2769D9D30040E268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62BA82F2769D9D40040E268 /* Build configuration list for PBXNativeTarget "Dice Roller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62BA8302769D9D40040E268 /* Debug */,
+				B62BA8312769D9D40040E268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62BA8322769D9D40040E268 /* Build configuration list for PBXNativeTarget "Dice RollerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62BA8332769D9D40040E268 /* Debug */,
+				B62BA8342769D9D40040E268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62BA8352769D9D40040E268 /* Build configuration list for PBXNativeTarget "Dice RollerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62BA8362769D9D40040E268 /* Debug */,
+				B62BA8372769D9D40040E268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B62BA8032769D9D00040E268 /* Project object */;
+}
